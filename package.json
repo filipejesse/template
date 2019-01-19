@@ -1,0 +1,20 @@
+{
+  "name": "TemplateCordova",
+  "version": "1.0.0",
+  "description": "Teste_Cordova",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/filipejesse/template.git"
+  },
+  "homepage": "https://github.com/filipejesse/template",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova:template"
+  ],
+  "author": "Filipe Jessé",
+  "license": "Apache-2.0"
+}

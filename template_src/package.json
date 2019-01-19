@@ -1,0 +1,29 @@
+{
+  "name": "<nome_do_projeto>",
+  "version": "1.0.0",
+  "description": "<descrição_do_projeto>",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "<seu_nome>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cordova-android": "^7.0.0",
+    "cordova-browser": "^5.0.4",
+    "cordova-plugin-browsersync": "git+https://github.com/nparashuram/cordova-plugin-browsersync.git",
+    "cordova-plugin-whitelist": "^1.3.3"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-browsersync": {}
+    },
+    "platforms": [
+      "android",
+      "browser"
+    ]
+  }
+}
